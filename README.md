@@ -28,12 +28,12 @@ Command to execute: ssh -t -o StrictHostKeyChecking=no fireman@bez:22 'ssh -t -o
 And to make things easier, lets parse the reverse hosts and their command executions:
 
 * bizz
-wget http://foo.bar/fireman/public/myarticle.pdf -O /tmp/myarticle.pdf
+    * wget http://foo.bar/fireman/public/myarticle.pdf -O /tmp/myarticle.pdf
 
 * fireman@bez:22
-ssh to bizz and execution of the commands listed above
-scp bizz:/tmp/myarticle.pdf /tmp/myarticle.pdf
+    * ssh to bizz and execution of the commands listed above
+    * scp bizz:/tmp/myarticle.pdf /tmp/myarticle.pdf
 
 * locally
-ssh to fireman@bez:22 and execution of the commands listed above
-scp fireman@bez:22:/tmp/myarticle.pdf /tmp/myarticle.pdf
+    * ssh to fireman@bez:22 and execution of the commands listed above
+    * scp fireman@bez:22:/tmp/myarticle.pdf /tmp/myarticle.pdf
